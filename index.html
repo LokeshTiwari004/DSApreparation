@@ -23,7 +23,7 @@
     <p>Quick access to solved problems, logs and upcoming tasks.</p>
   </header>
   <nav>
-    <a href="#problems">Problems</a>
+    <a href="javascript:void(0)" onclick="showProblems()">Problems</a>
     <a href="javascript:void(0)" onclick="loadMarkdown('TODO.md')">Todo</a>
     <a href="javascript:void(0)" onclick="loadMarkdown('log.md')">Log</a>
     <a href="javascript:void(0)" onclick="loadMarkdown('ROADMAP.md')">Roadmap</a>
@@ -83,11 +83,18 @@
         const html = marked.parse(md);
         document.getElementById('doc-title').textContent = file.replace('.md', '').toUpperCase();
         document.getElementById('doc-body').innerHTML = html;
+        // hide problem list and show markdown doc
+        document.getElementById('problems').style.display = 'none';
         document.getElementById('doc').style.display = 'block';
       } catch (e) {
         console.error(e);
         alert('Failed to load documentation.');
       }
+    }
+    function showProblems() {
+      // hide markdown doc and show problem list
+      document.getElementById('doc').style.display = 'none';
+      document.getElementById('problems').style.display = 'block';
     }
     // Auto‑load when the script runs
     loadProblems();
