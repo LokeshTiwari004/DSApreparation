@@ -51,7 +51,7 @@
     <section id="details" style="display:none;">
       <h2 id="detail-title"></h2>
       <a href="javascript:void(0)" onclick="showProblems()">Back to list</a>
-      <pre><code id="solution-code" class="language-"></code></pre>
+        <div id="solution-wrapper"></div>
       <h3>Log</h3>
       <div id="log-body"></div>
     </section>
@@ -110,21 +110,24 @@
       document.getElementById('details').style.display = 'block';
       // set title
       document.getElementById('detail-title').textContent = `${p.id}. ${p.title}`;
-      // Load solution source code (raw)
-      try {
-        const resp = await fetch(p.solution_raw_url);
-        if (resp.ok) {
-          const code = await resp.text();
-          const codeEl = document.getElementById('solution-code');
-          codeEl.textContent = code;
-          // set language class for potential syntax highlighting
-          codeEl.className = `language-${p.language}`;
-        } else {
-          document.getElementById('solution-code').textContent = 'Solution not available.';
+        // Load solution source code (raw)
+        try {
+          const resp = await fetch(p.solution_raw_url);
+          if (resp.ok) {
+            const code = await resp.text();
+            const wrapper = document.getElementById('solution-wrapper');
+            // Escape HTML for safe rendering
+            const escaped = code
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;');
+            wrapper.innerHTML = `<pre><code class="language-${p.language}">${escaped}</code></pre>`;
+          } else {
+            document.getElementById('solution-wrapper').innerHTML = '<em>Solution not available.</em>';
+          }
+        } catch (e) {
+          document.getElementById('solution-wrapper').innerHTML = '<em>Error loading solution.</em>';
         }
-      } catch (e) {
-        document.getElementById('solution-code').textContent = 'Error loading solution.';
-      }
       // Load markdown log if exists
       const logContainer = document.getElementById('log-body');
       if (p.log_raw_url) {
