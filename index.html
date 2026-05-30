@@ -49,11 +49,11 @@
       <div id="doc-body"></div>
     </section>
     <section id="details" style="display:none;">
-      <h2 id="detail-title"></h2>
+      <h2 id="detail-title" style="display: none;"></h2>
       <a href="javascript:void(0)" onclick="showProblems()">Back to list</a>
-        <div id="solution-wrapper"></div>
-      <h3>Log</h3>
       <div id="log-body"></div>
+      <h2>CODE SOLUTION</h2>
+      <div id="solution-wrapper"></div>
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -121,7 +121,7 @@
               .replace(/&/g, '&amp;')
               .replace(/</g, '&lt;')
               .replace(/>/g, '&gt;');
-            wrapper.innerHTML = `<pre><code class="language-${p.language}">${escaped}</code></pre>`;
+            wrapper.innerHTML = `<pre><code class="language-${p.language=='py' ? 'python': p.language} line-numbers">${escaped}</code></pre>`;
           } else {
             document.getElementById('solution-wrapper').innerHTML = '<em>Solution not available.</em>';
           }
