@@ -1,0 +1,128 @@
+[
+  {
+    "id": 19,
+    "title": "remove nth node from end of list",
+    "language": "py",
+    "solution_path": ".leetcode/19.remove-nth-node-from-end-of-list.py"
+  },
+  {
+    "id": 20,
+    "title": "valid parentheses",
+    "language": "py",
+    "solution_path": ".leetcode/20.valid-parentheses.py"
+  },
+  {
+    "id": 21,
+    "title": "merge two sorted lists",
+    "language": "py",
+    "solution_path": ".leetcode/21.merge-two-sorted-lists.py"
+  },
+  {
+    "id": 33,
+    "title": "search in rotated sorted array",
+    "language": "py",
+    "solution_path": ".leetcode/33.search-in-rotated-sorted-array.py"
+  },
+  {
+    "id": 35,
+    "title": "search insert position",
+    "language": "py",
+    "solution_path": ".leetcode/35.search-insert-position.py"
+  },
+  {
+    "id": 100,
+    "title": "same tree",
+    "language": "py",
+    "solution_path": ".leetcode/100.same-tree.py"
+  },
+  {
+    "id": 104,
+    "title": "maximum depth of binary tree",
+    "language": "py",
+    "solution_path": ".leetcode/104.maximum-depth-of-binary-tree.py"
+  },
+  {
+    "id": 110,
+    "title": "balanced binary tree",
+    "language": "py",
+    "solution_path": ".leetcode/110.balanced-binary-tree.py"
+  },
+  {
+    "id": 142,
+    "title": "linked list cycle ii",
+    "language": "cpp",
+    "solution_path": ".leetcode/142.linked-list-cycle-ii.cpp"
+  },
+  {
+    "id": 142,
+    "title": "linked list cycle ii",
+    "language": "py",
+    "solution_path": ".leetcode/142.linked-list-cycle-ii.py"
+  },
+  {
+    "id": 150,
+    "title": "evaluate reverse polish notation",
+    "language": "py",
+    "solution_path": ".leetcode/150.evaluate-reverse-polish-notation.py"
+  },
+  {
+    "id": 153,
+    "title": "find minimum in rotated sorted array",
+    "language": "py",
+    "solution_path": ".leetcode/153.find-minimum-in-rotated-sorted-array.py"
+  },
+  {
+    "id": 155,
+    "title": "min stack",
+    "language": "py",
+    "solution_path": ".leetcode/155.min-stack.py"
+  },
+  {
+    "id": 206,
+    "title": "reverse linked list",
+    "language": "py",
+    "solution_path": ".leetcode/206.reverse-linked-list.py"
+  },
+  {
+    "id": 226,
+    "title": "invert binary tree",
+    "language": "py",
+    "solution_path": ".leetcode/226.invert-binary-tree.py"
+  },
+  {
+    "id": 232,
+    "title": "implement queue using stacks",
+    "language": "py",
+    "solution_path": ".leetcode/232.implement-queue-using-stacks.py"
+  },
+  {
+    "id": 572,
+    "title": "subtree of another tree",
+    "language": "py",
+    "solution_path": ".leetcode/572.subtree-of-another-tree.py"
+  },
+  {
+    "id": 704,
+    "title": "binary search",
+    "language": "py",
+    "solution_path": ".leetcode/704.binary-search.py"
+  },
+  {
+    "id": 739,
+    "title": "daily temperatures",
+    "language": "py",
+    "solution_path": ".leetcode/739.daily-temperatures.py"
+  },
+  {
+    "id": 875,
+    "title": "koko eating bananas",
+    "language": "py",
+    "solution_path": ".leetcode/875.koko-eating-bananas.py"
+  },
+  {
+    "id": 876,
+    "title": "middle of the linked list",
+    "language": "cpp",
+    "solution_path": ".leetcode/876.middle-of-the-linked-list.cpp"
+  }
+]

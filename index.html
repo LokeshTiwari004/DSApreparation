@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA Prep Dashboard</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9;}
+    header {background:#2c3e50; color:white; padding:1rem; text-align:center;}
+    nav {background:#34495e; display:flex; justify-content:center; gap:2rem;}
+    nav a {color:#ecf0f1; text-decoration:none; padding:0.5rem 1rem;}
+    nav a:hover {background:#1abc9c;}
+    main {padding:2rem; max-width:1200px; margin:auto;}
+    table {width:100%; border-collapse:collapse; margin-top:1rem;}
+    th, td {border:1px solid #ddd; padding:0.5rem; text-align:left;}
+    th {background:#f2f2f2;}
+    .loading {text-align:center; margin-top:2rem;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DSA Preparation Hub</h1>
+    <p>Quick access to solved problems, logs and upcoming tasks.</p>
+  </header>
+  <nav>
+    <a href="#problems">Problems</a>
+    <a href="javascript:void(0)" onclick="loadMarkdown('TODO.md')">Todo</a>
+    <a href="javascript:void(0)" onclick="loadMarkdown('log.md')">Log</a>
+    <a href="javascript:void(0)" onclick="loadMarkdown('ROADMAP.md')">Roadmap</a>
+  </nav>
+  <main>
+    <section id="problems">
+      <h2>Problem List</h2>
+      <div class="loading" id="loading">Loading problems...</div>
+      <table id="problem-table" style="display:none;">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Language</th>
+            <th>Solution</th>
+          </tr>
+        </thead>
+        <tbody id="problem-body"></tbody>
+      </table>
+</section>
+    <section id="doc" style="display:none;">
+      <h2 id="doc-title"></h2>
+      <div id="doc-body"></div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    async function loadProblems() {
+      try {
+        const resp = await fetch('data/problems.json');
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const problems = await resp.json();
+        const tbody = document.getElementById('problem-body');
+        problems.forEach(p => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${p.id}</td>
+            <td>${p.title}</td>
+            <td>${p.language}</td>
+            <td><a href="${p.solution_path}" target="_blank">View</a></td>
+          `;
+          tbody.appendChild(tr);
+        });
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('problem-table').style.display = 'table';
+      } catch (e) {
+        const msg = document.getElementById('loading');
+        msg.textContent = 'Failed to load problems. Ensure the page is served over HTTP (e.g., "python -m http.server") or view it via GitHub Pages.';
+        console.error(e);
+      }
+    }
+    async function loadMarkdown(file) {
+      try {
+        const resp = await fetch(file);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const md = await resp.text();
+        const html = marked.parse(md);
+        document.getElementById('doc-title').textContent = file.replace('.md', '').toUpperCase();
+        document.getElementById('doc-body').innerHTML = html;
+        document.getElementById('doc').style.display = 'block';
+      } catch (e) {
+        console.error(e);
+        alert('Failed to load documentation.');
+      }
+    }
+    // Auto‑load when the script runs
+    loadProblems();
+  </script>
+</body>
+</html>
