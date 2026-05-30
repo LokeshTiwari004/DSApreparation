@@ -45,8 +45,14 @@
       </table>
 </section>
     <section id="doc" style="display:none;">
-      <h2 id="doc-title" style="display: none;"></h2>
+      <h2 id="doc-title"></h2>
       <div id="doc-body"></div>
+    <section id="details" style="display:none;">
+      <h2 id="detail-title"></h2>
+      <a href="javascript:void(0)" onclick="showProblems()">Back to list</a>
+      <pre><code id="solution-code" class="language-"></code></pre>
+      <h3>Log</h3>
+      <div id="log-body"></div>
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -55,15 +61,17 @@
       try {
         const resp = await fetch('data/problems.json');
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        const problems = await resp.json();
-        const tbody = document.getElementById('problem-body');
+      const problems = await resp.json();
+      // Store globally for later lookup
+      window.problemsData = problems;
+      const tbody = document.getElementById('problem-body');
         problems.forEach(p => {
           const tr = document.createElement('tr');
           tr.innerHTML = `
             <td>${p.id}</td>
             <td>${p.title}</td>
             <td>${p.language}</td>
-            <td><a href="${p.solution_url}" target="_blank">View</a></td>
+            <td><button onclick="showDetails(${p.id})">View</button></td>
           `;
           tbody.appendChild(tr);
         });
@@ -83,17 +91,62 @@
         const html = marked.parse(md);
         document.getElementById('doc-title').textContent = file.replace('.md', '').toUpperCase();
         document.getElementById('doc-body').innerHTML = html;
-        // hide problem list and show markdown doc
+        // hide problem list, details and show markdown doc
         document.getElementById('problems').style.display = 'none';
+        document.getElementById('details').style.display = 'none';
         document.getElementById('doc').style.display = 'block';
       } catch (e) {
         console.error(e);
         alert('Failed to load documentation.');
       }
     }
-    function showProblems() {
-      // hide markdown doc and show problem list
+    async function showDetails(id) {
+      const p = window.problemsData.find(item => item.id === id);
+      if (!p) return;
+      // hide other sections
+      document.getElementById('problems').style.display = 'none';
       document.getElementById('doc').style.display = 'none';
+      document.getElementById('details').style.display = 'block';
+      // set title
+      document.getElementById('detail-title').textContent = `${p.id}. ${p.title}`;
+      // Load solution source code (raw)
+      try {
+        const resp = await fetch(p.solution_raw_url);
+        if (resp.ok) {
+          const code = await resp.text();
+          const codeEl = document.getElementById('solution-code');
+          codeEl.textContent = code;
+          // set language class for potential syntax highlighting
+          codeEl.className = `language-${p.language}`;
+        } else {
+          document.getElementById('solution-code').textContent = 'Solution not available.';
+        }
+      } catch (e) {
+        document.getElementById('solution-code').textContent = 'Error loading solution.';
+      }
+      // Load markdown log if exists
+      const logContainer = document.getElementById('log-body');
+      if (p.log_raw_url) {
+        try {
+          const respLog = await fetch(p.log_raw_url);
+          if (respLog.ok) {
+            const md = await respLog.text();
+            logContainer.innerHTML = marked.parse(md);
+          } else {
+            logContainer.innerHTML = '<em>Log not available.</em>';
+          }
+        } catch (e) {
+          logContainer.innerHTML = '<em>Error loading log.</em>';
+        }
+      } else {
+        logContainer.innerHTML = '<em>No log file found.</em>';
+      }
+    }
+    
+    function showProblems() {
+      // hide markdown doc and details, show problem list
+      document.getElementById('doc').style.display = 'none';
+      document.getElementById('details').style.display = 'none';
       document.getElementById('problems').style.display = 'block';
     }
     // Auto‑load when the script runs
