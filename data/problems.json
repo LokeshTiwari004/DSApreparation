@@ -45,6 +45,33 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/35.search-insert-position.md"
   },
   {
+    "id": 39,
+    "title": "combination sum",
+    "language": "py",
+    "solution_path": ".leetcode/39.combination-sum.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/39.combination-sum.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/39.combination-sum.py",
+    "log_raw_url": null
+  },
+  {
+    "id": 46,
+    "title": "permutations",
+    "language": "py",
+    "solution_path": ".leetcode/46.permutations.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/46.permutations.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/46.permutations.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/46.permutations.md"
+  },
+  {
+    "id": 78,
+    "title": "subsets",
+    "language": "py",
+    "solution_path": ".leetcode/78.subsets.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/78.subsets.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/78.subsets.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/78.subsets.md"
+  },
+  {
     "id": 100,
     "title": "same tree",
     "language": "py",
