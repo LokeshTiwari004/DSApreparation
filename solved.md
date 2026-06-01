@@ -10,6 +10,7 @@
 - [x] #21 Merge Two Sorted Lists — Linked List (Easy)
 - [x] #33 Search in Rotated Sorted Array — Binary Search with pivot (Medium)
 - [x] #35 Search Insert Position — Binary Search on boundary (Easy)
+- [x] #39 Combination Sum — Backtracking (Medium)
 - [x] #46 Permutations — Backtracking (Medium)
 - [x] #49 Group Anagrams — HashMap (Medium)
 - [x] #53 Maximum Subarray — Kadane's Algorithm (Medium)

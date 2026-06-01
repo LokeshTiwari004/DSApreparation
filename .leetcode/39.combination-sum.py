@@ -5,38 +5,27 @@
 #
 
 # @lc code=start
+# Time: 30 mins
+# Hint: None
+# Pattern: Backtracking
+# complexity: O(n^target) Time, O(n*target) space
+# Reasoning: Select one numebr( in out case last num) 0 or more times only then move to next num
 class Solution:
-    def count(self, candidates, target):
-        for candidate in candidates:
-            if candidate > target:
-                yield [candidate, 0]
-            elif candidate == target:
-                yield [candidate, 1]
-            else:
-                for rest in self.count(candidates, target - candidate):
-                    yield [candidate] + rest
-
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         answer = []
-        ds = []
-        for combo in self.count(candidates, target):
-            if combo[-1]:
-                d = dict()
-                for i in combo[:-1]:
-                    if i in d:
-                        d[i] += 1
-                    else:
-                        d[i] = 1
-                ds.append(d)
-                answer.append(combo[:-1])
-        to_pop = set()
-        for i, d in enumerate(ds):
-            for j, q in enumerate(ds[i+1:]):
-                if d==q and i != j:
-                    to_pop.add(j)
-
-        for i in sorted(list(to_pop), reverse=True):
-            answer.pop(i)
+        def backtrack(path, remaining, target):
+            if target == 0:
+                answer.append(path)
+                return
+            elif target < 0:
+                return
+            elif not remaining:
+                return
+            last = remaining[-1]
+            backtrack(path + [last], remaining, target - last)
+            backtrack(path, remaining[:-1], target)
+        backtrack([], candidates, target)
         return answer
+
 # @lc code=end
 
