@@ -27,6 +27,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/21.merge-two-sorted-lists.md"
   },
   {
+    "id": 22,
+    "title": "generate parentheses",
+    "language": "py",
+    "solution_path": ".leetcode/22.generate-parentheses.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/22.generate-parentheses.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/22.generate-parentheses.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/22.generate-parentheses.md"
+  },
+  {
     "id": 33,
     "title": "search in rotated sorted array",
     "language": "py",
@@ -61,6 +70,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/46.permutations.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/46.permutations.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/46.permutations.md"
+  },
+  {
+    "id": 77,
+    "title": "combinations",
+    "language": "py",
+    "solution_path": ".leetcode/77.combinations.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/77.combinations.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/77.combinations.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/77.combinations.md"
   },
   {
     "id": 78,
