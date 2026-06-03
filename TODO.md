@@ -8,8 +8,8 @@
 
 # Phase 2 – Week 6: Graphs
 
-- [ ] #200 Number of Islands — Graph DFS (Medium)
-- [ ] #733 Flood Fill — Graph DFS (Easy)
+- [x] #200 Number of Islands — Graph DFS (Medium)
+- [x] #733 Flood Fill — Graph DFS (Easy)
 - [ ] #133 Clone Graph — Graph Traversal (Medium)
 - [ ] #695 Max Area of Island — Graph DFS (Medium)
 - [ ] #207 Course Schedule — Topological Sort (Medium)
