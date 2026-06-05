@@ -189,6 +189,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/206.reverse-linked-list.md"
   },
   {
+    "id": 207,
+    "title": "course schedule",
+    "language": "py",
+    "solution_path": ".leetcode/207.course-schedule.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/207.course-schedule.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/207.course-schedule.py",
+    "log_raw_url": null
+  },
+  {
     "id": 226,
     "title": "invert binary tree",
     "language": "py",
@@ -214,6 +223,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/572.subtree-of-another-tree.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/572.subtree-of-another-tree.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/572.subtree-of-another-tree.md"
+  },
+  {
+    "id": 695,
+    "title": "max area of island",
+    "language": "py",
+    "solution_path": ".leetcode/695.max-area-of-island.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/695.max-area-of-island.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/695.max-area-of-island.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/695.max-area-of-island.md"
   },
   {
     "id": 704,
