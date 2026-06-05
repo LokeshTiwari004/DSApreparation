@@ -37,6 +37,7 @@
 - [x] #560 Subarray Sum Equals K — Prefix Sum + HashMap (Medium)
 - [x] #572 Subtree of Another Tree — Trees (Easy)
 - [x] #643 Maximum Average Subarray I — Sliding Window (Easy)
+- [x] #695 Max Area of Island — Graph DFS (Medium)
 - [x] #704 Binary Search — Binary Search (Easy)
 - [x] #733 Flood Fill — Graph DFS (Easy)
 - [x] #739 Daily Temperatures — Monotonic Stack (Medium)
