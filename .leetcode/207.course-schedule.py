@@ -31,10 +31,9 @@ class Solution:
         
         nocycle = set()
         for course in dependencyTree:
-            if course in nocycle:
-                continue
-            if haveCycle(course):
-                return False
-            nocycle.add(course)
+            if course not in nocycle:
+                if haveCycle(course):
+                    return False
+                nocycle.add(course)
         return True
 # @lc code=end
