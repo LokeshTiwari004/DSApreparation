@@ -204,7 +204,7 @@
     "solution_path": ".leetcode/207.course-schedule.py",
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/207.course-schedule.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/207.course-schedule.py",
-    "log_raw_url": null
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/207.course-schedule.md"
   },
   {
     "id": 226,
@@ -286,5 +286,14 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/876.middle-of-the-linked-list.cpp",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/876.middle-of-the-linked-list.cpp",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/876.middle-of-the-linked-list.md"
+  },
+  {
+    "id": 1421,
+    "title": "npv queries",
+    "language": "py",
+    "solution_path": ".leetcode/1421.npv-queries.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/1421.npv-queries.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/1421.npv-queries.py",
+    "log_raw_url": null
   }
 ]
