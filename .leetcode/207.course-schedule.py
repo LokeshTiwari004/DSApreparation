@@ -5,35 +5,38 @@
 #
 
 # @lc code=start
+from collections import deque
 class Solution:
+    """
+        Time: 30 mins after study
+        Hint: YES, learned  "BFS-based topological sort" from agents
+        Pattern: Kahn' Algorithm / BFS Topological Sort / Source Removal 
+        Complexity: O(N+E) Time and Space  # O(N²) in the worst-case dense graph
+    """
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        dependencyTree = dict()
+        outdegree = dict()
+        incoming = dict()
+        for i in range(numCourses):
+            outdegree[i] = 0
+            incoming[i] = set()
 
         for c, p in prerequisites:
-            if c in dependencyTree:
-                dependencyTree[c].append(p)
-            else: 
-                dependencyTree[c] = [p]
+            outdegree[c] += 1
+            incoming[p].add(c)
         
-        def haveCycle(c, seen=set()):
-            if c not in dependencyTree:
+        zerooutdegree = deque()
+        for i in range(numCourses):
+            if not outdegree[i]:
+                zerooutdegree.append(i)
+        
+        while zerooutdegree:
+            for vertex in incoming[zerooutdegree.popleft()]:
+                outdegree[vertex] -= 1
+                if outdegree[vertex] == 0:
+                    zerooutdegree.append(vertex)
+
+        for outdeg in outdegree.values():
+            if outdeg:
                 return False
-            
-            for p in dependencyTree[c]:
-                if p in seen:
-                    return True
-                seen.add(p)
-                if haveCycle(p, seen):
-                    return True
-                seen.remove(p)
-            
-            return False
-        
-        nocycle = set()
-        for course in dependencyTree:
-            if course not in nocycle:
-                if haveCycle(course):
-                    return False
-                nocycle.add(course)
         return True
 # @lc code=end

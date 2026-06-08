@@ -29,6 +29,7 @@
 - [x] #155 Min Stack — Stack design (Medium)
 - [x] #200 Number of Islands — Graph DFS (Medium)
 - [x] #206 Reverse Linked List — Linked List (Easy)
+- [x] #207 Course Schedule — Topological Sort (Medium) (hint)
 - [x] #217 Contains Duplicate — HashSet (Easy)
 - [x] #226 Invert Binary Tree — Trees (Easy)
 - [x] #232 Implement Queue using Stacks — Queue/Stack (Easy)

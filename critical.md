@@ -1,6 +1,6 @@
 # Critical — Problems to Reattempt
 
-## 875. Koko Eating Bananas
+## ✅ 875. Koko Eating Bananas — Cleared (08/06/26)
 
 **Pattern:** Binary Search on Answer Space
 **Failed:** 2 hours, no hints, wrong approach
@@ -11,11 +11,9 @@
 - Feasibility: `sum(ceil(pile/k)) <= h`
 - Binary search for minimum feasible `k`
 
-**Solve again when:** After completing Week 3 (Stacks & Queues)
-
 ---
 
-## 142. Linked List Cycle II
+## ✅ 142. Linked List Cycle II — Cleared (08/06/26)
 
 **Pattern:** Floyd's Cycle Detection (Fast & Slow Pointers) + Phase 2
 **Crude attempt:** 30 mins, no hints, hashmap O(n) space
@@ -25,8 +23,6 @@
 - Phase 1: slow 1×, fast 2× → detect cycle, they meet inside cycle
 - Phase 2: reset slow to head, both 1× → meet at cycle start
 - D = kC − R (math behind why phase 2 works)
-
-**Solve again when:** Before Phase 3 (mock assessments)
 
 ---
 
