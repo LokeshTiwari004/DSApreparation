@@ -5,31 +5,20 @@
 #
 
 # @lc code=start
-
+# 10 mins
+# Laged Pointer
+# O(n) time O(1) space
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        if not head:
-            return head
-        cursor = head
-        lagged = head
-        lag = 0
-        while True:
-            cursor = cursor.next
-            
-            if not cursor:
-                break
-
-            if lag == n:
-                lagged = lagged.next
-            else:
-                lag += 1
-
-        if lag == n - 1:
-            head = head.next
-        elif lag == n:
-            lagged.next = lagged.next.next
-
-        return head
+        dummy = ListNode(0, head)
+        fast = slow = dummy
+        for _ in range(n):
+            fast = fast.next
+        while fast.next:
+            fast = fast.next
+            slow = slow.next
+        slow.next = slow.next.next
+        return dummy.next
 
 # @lc code=end
 

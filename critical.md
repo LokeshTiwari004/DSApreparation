@@ -11,8 +11,6 @@
 - Feasibility: `sum(ceil(pile/k)) <= h`
 - Binary search for minimum feasible `k`
 
----
-
 ## ✅ 142. Linked List Cycle II — Cleared (08/06/26)
 
 **Pattern:** Floyd's Cycle Detection (Fast & Slow Pointers) + Phase 2
@@ -25,18 +23,3 @@
 - D = kC − R (math behind why phase 2 works)
 
 ---
-
-## 19. Remove Nth Node From End of List
-
-**Pattern:** Two Pointers (fixed gap)
-**Crude attempt:** Lag counter with head-removal special case
-**Why saved:** Non-standard lag counter approach. Should internalize the dummy node + gap pattern.
-
-**Quick refresher:**
-- `dummy = ListNode(0, head); slow = fast = dummy`
-- Advance `fast` by `n` first
-- Move both until `fast.next` is None
-- `slow.next = slow.next.next`
-- Return `dummy.next`
-
-**Solve again when:** Before Phase 3 (mock assessments)
