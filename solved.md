@@ -17,6 +17,7 @@
 - [x] #75 Sort Colors — Dutch National Flag (Medium)
 - [x] #78 Subsets — Backtracking (Medium)
 - [x] #77 Combinations — Backtracking (Medium)
+- [x] #88 Merge Sorted Array — Two Pointer (Easy) (re-attempt)
 - [x] #100 Same Tree — Trees (Easy)
 - [x] #104 Maximum Depth of Binary Tree — Trees (Easy)
 - [x] #121 Best Time to Buy and Sell Stock — Greedy (Easy)
@@ -36,6 +37,7 @@
 - [x] #238 Product of Array Except Self — Prefix + Suffix Product (Medium)
 - [x] #242 Valid Anagram — HashMap (Easy)
 - [x] #283 Move Zeroes — Two Pointer (Easy)
+- [x] #438 Find All Anagrams in a String — Sliding Window (Medium) (re-attempt)
 - [x] #560 Subarray Sum Equals K — Prefix Sum + HashMap (Medium)
 - [x] #572 Subtree of Another Tree — Trees (Easy)
 - [x] #643 Maximum Average Subarray I — Sliding Window (Easy)
@@ -49,5 +51,4 @@
 
 ## Unsolved (to revisit)
 
-- [ ] #88 Merge Sorted Array — Two Pointer (Easy)
-- [ ] #438 Find All Anagrams in a String — Sliding Window (Medium)
+*(None — all backlog cleared)*

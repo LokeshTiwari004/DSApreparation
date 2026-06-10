@@ -6,10 +6,10 @@
 - [x] #77 Combinations — Backtracking (Medium)
 - [x] #22 Generate Parentheses — Backtracking (Medium)
 
-# Phase 3 – Warm-up: Critical Re-attempts + Backlog
+# Phase 3 – Mixed Revision (1 per major topic)
 
-- [x] #875 Koko Eating Bananas — Binary Search on Answer (re-attempt)
-- [x] #142 Linked List Cycle II — Floyd's Cycle Detection (re-attempt)
-- [x] #19 Remove Nth Node From End of List — Dummy Node (re-attempt)
-- [ ] #88 Merge Sorted Array — Two Pointer (unsolved)
-- [ ] #438 Find All Anagrams in a String — Sliding Window (unsolved)
+- [ ] #15 3Sum — Two Pointers (Medium)
+- [ ] #424 Longest Repeating Character Replacement — Sliding Window (Medium)
+- [ ] #994 Rotting Oranges — Graph BFS (Medium)
+- [ ] #235 Lowest Common Ancestor of BST — Trees (Medium)
+- [ ] #146 LRU Cache — Design (Medium)
