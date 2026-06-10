@@ -90,6 +90,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/78.subsets.md"
   },
   {
+    "id": 88,
+    "title": "merge sorted array",
+    "language": "py",
+    "solution_path": ".leetcode/88.merge-sorted-array.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/88.merge-sorted-array.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/88.merge-sorted-array.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/88.merge-sorted-array.md"
+  },
+  {
     "id": 100,
     "title": "same tree",
     "language": "py",
@@ -223,6 +232,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/232.implement-queue-using-stacks.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/232.implement-queue-using-stacks.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/232.implement-queue-using-stacks.md"
+  },
+  {
+    "id": 438,
+    "title": "find all anagrams in a string",
+    "language": "py",
+    "solution_path": ".leetcode/438.find-all-anagrams-in-a-string.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/438.find-all-anagrams-in-a-string.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/438.find-all-anagrams-in-a-string.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/438.find-all-anagrams-in-a-string.md"
   },
   {
     "id": 572,
