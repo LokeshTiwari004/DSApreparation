@@ -5,6 +5,7 @@
 - [x] #1 Two Sum — HashMap (Easy)
 - [x] #3 Longest Substring Without Repeating Characters — Sliding Window (Medium)
 - [x] #11 Container With Most Water — Two Pointer (Medium)
+- [x] #15 3Sum — Two Pointers (Medium)
 - [x] #19 Remove Nth Node From End of List — Two Pointers (Medium)
 - [x] #20 Valid Parentheses — Stack (Easy)
 - [x] #22 Generate Parentheses — Backtracking (Medium)
@@ -47,6 +48,7 @@
 - [x] #739 Daily Temperatures — Monotonic Stack (Medium)
 - [x] #875 Koko Eating Bananas — Binary Search on answer space (Medium) (re-attempt)
 - [x] #876 Middle of the Linked List — Fast & Slow Pointers (Easy)
+- [x] #994 Rotting Oranges — Graph BFS (Medium)
 - [x] #110 Balanced Binary Tree — Trees (Easy) (hint)
 
 ## Unsolved (to revisit)

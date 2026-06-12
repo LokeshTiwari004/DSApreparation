@@ -8,8 +8,8 @@
 
 # Phase 3 – Mixed Revision (1 per major topic)
 
-- [ ] #15 3Sum — Two Pointers (Medium)
+- [x] #15 3Sum — Two Pointers (Medium)
 - [ ] #424 Longest Repeating Character Replacement — Sliding Window (Medium)
-- [ ] #994 Rotting Oranges — Graph BFS (Medium)
+- [x] #994 Rotting Oranges — Graph BFS (Medium)
 - [ ] #235 Lowest Common Ancestor of BST — Trees (Medium)
 - [ ] #146 LRU Cache — Design (Medium)
