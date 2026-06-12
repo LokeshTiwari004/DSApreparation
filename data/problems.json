@@ -1,5 +1,14 @@
 [
   {
+    "id": 15,
+    "title": "3 sum",
+    "language": "py",
+    "solution_path": ".leetcode/15.3-sum.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/15.3-sum.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/15.3-sum.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/15.3-sum.md"
+  },
+  {
     "id": 19,
     "title": "remove nth node from end of list",
     "language": "py",
@@ -304,6 +313,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/876.middle-of-the-linked-list.cpp",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/876.middle-of-the-linked-list.cpp",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/876.middle-of-the-linked-list.md"
+  },
+  {
+    "id": 994,
+    "title": "rotting oranges",
+    "language": "py",
+    "solution_path": ".leetcode/994.rotting-oranges.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/994.rotting-oranges.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/994.rotting-oranges.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/994.rotting-oranges.md"
   },
   {
     "id": 1421,
