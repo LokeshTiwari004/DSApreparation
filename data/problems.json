@@ -171,6 +171,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/142.linked-list-cycle-ii.md"
   },
   {
+    "id": 146,
+    "title": "lru cache",
+    "language": "py",
+    "solution_path": ".leetcode/146.lru-cache.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/146.lru-cache.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/146.lru-cache.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/146.lru-cache.md"
+  },
+  {
     "id": 150,
     "title": "evaluate reverse polish notation",
     "language": "py",
@@ -241,6 +250,24 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/232.implement-queue-using-stacks.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/232.implement-queue-using-stacks.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/232.implement-queue-using-stacks.md"
+  },
+  {
+    "id": 235,
+    "title": "lowest common ancestor of a binary search tree",
+    "language": "py",
+    "solution_path": ".leetcode/235.lowest-common-ancestor-of-a-binary-search-tree.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/235.lowest-common-ancestor-of-a-binary-search-tree.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/235.lowest-common-ancestor-of-a-binary-search-tree.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/235.lowest-common-ancestor-of-a-binary-search-tree.md"
+  },
+  {
+    "id": 424,
+    "title": "longest repeating character replacement",
+    "language": "py",
+    "solution_path": ".leetcode/424.longest-repeating-character-replacement.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/424.longest-repeating-character-replacement.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/424.longest-repeating-character-replacement.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/424.longest-repeating-character-replacement.md"
   },
   {
     "id": 438,
