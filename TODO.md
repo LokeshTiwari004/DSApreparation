@@ -6,10 +6,8 @@
 - [x] #77 Combinations — Backtracking (Medium)
 - [x] #22 Generate Parentheses — Backtracking (Medium)
 
-# Phase 3 – Mixed Revision (1 per major topic)
+# Phase 3 – Week 8: Mock Assessment #1 (90 min)
 
-- [x] #15 3Sum — Two Pointers (Medium)
-- [ ] #424 Longest Repeating Character Replacement — Sliding Window (Medium)
-- [x] #994 Rotting Oranges — Graph BFS (Medium)
-- [ ] #235 Lowest Common Ancestor of BST — Trees (Medium)
-- [ ] #146 LRU Cache — Design (Medium)
+- [ ] #102 Binary Tree Level Order Traversal — Trees BFS (Medium)
+- [ ] #167 Two Sum II — Two Pointers (Medium)
+- [ ] #55 Jump Game — Greedy (Medium)
