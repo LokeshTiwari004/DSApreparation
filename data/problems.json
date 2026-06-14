@@ -81,6 +81,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/46.permutations.md"
   },
   {
+    "id": 55,
+    "title": "jump game",
+    "language": "py",
+    "solution_path": ".leetcode/55.jump-game.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/55.jump-game.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/55.jump-game.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/55.jump-game.md"
+  },
+  {
     "id": 77,
     "title": "combinations",
     "language": "py",
@@ -115,6 +124,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/100.same-tree.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/100.same-tree.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/100.same-tree.md"
+  },
+  {
+    "id": 102,
+    "title": "binary tree level order traversal",
+    "language": "py",
+    "solution_path": ".leetcode/102.binary-tree-level-order-traversal.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/102.binary-tree-level-order-traversal.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/102.binary-tree-level-order-traversal.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/102.binary-tree-level-order-traversal.md"
   },
   {
     "id": 104,
@@ -205,6 +223,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/155.min-stack.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/155.min-stack.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/155.min-stack.md"
+  },
+  {
+    "id": 167,
+    "title": "two sum ii input array is sorted",
+    "language": "py",
+    "solution_path": ".leetcode/167.two-sum-ii-input-array-is-sorted.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/167.two-sum-ii-input-array-is-sorted.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/167.two-sum-ii-input-array-is-sorted.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/167.two-sum-ii-input-array-is-sorted.md"
   },
   {
     "id": 200,
