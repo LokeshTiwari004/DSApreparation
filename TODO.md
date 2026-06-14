@@ -8,6 +8,6 @@
 
 # Phase 3 – Week 8: Mock Assessment #1 (90 min)
 
-- [ ] #102 Binary Tree Level Order Traversal — Trees BFS (Medium)
-- [ ] #167 Two Sum II — Two Pointers (Medium)
-- [ ] #55 Jump Game — Greedy (Medium)
+- [x] #102 Binary Tree Level Order Traversal — Trees BFS (Medium)
+- [x] #167 Two Sum II — Two Pointers (Medium)
+- [x] #55 Jump Game — Greedy (Medium)
