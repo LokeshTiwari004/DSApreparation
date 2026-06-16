@@ -11,3 +11,9 @@
 - [x] #102 Binary Tree Level Order Traversal — Trees BFS (Medium)
 - [x] #167 Two Sum II — Two Pointers (Medium)
 - [x] #55 Jump Game — Greedy (Medium)
+
+# Phase 3 – Week 8: Mock Assessment #2 (90 min)
+
+- [x] #125 Valid Palindrome — Two Pointers (Easy)
+- [x] #199 Binary Tree Right Side View — Tree BFS/DFS (Medium)
+- [x] #36 Valid Sudoku — Hashing / Matrix (Medium)

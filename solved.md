@@ -56,7 +56,10 @@
 - [x] #876 Middle of the Linked List — Fast & Slow Pointers (Easy)
 - [x] #994 Rotting Oranges — Graph BFS (Medium)
 - [x] #110 Balanced Binary Tree — Trees (Easy) (hint)
+- [x] #125 Valid Palindrome — Two Pointers (Easy)
+- [x] #199 Binary Tree Right Side View — Tree BFS (Medium)
+- [x] #36 Valid Sudoku — Hashing (Medium)
 
 ## Unsolved (to revisit)
 
-*(None — all backlog cleared)*
+
