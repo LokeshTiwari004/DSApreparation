@@ -63,6 +63,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/35.search-insert-position.md"
   },
   {
+    "id": 36,
+    "title": "valid sudoku",
+    "language": "py",
+    "solution_path": ".leetcode/36.valid-sudoku.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/36.valid-sudoku.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/36.valid-sudoku.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/36.valid-sudoku.md"
+  },
+  {
     "id": 39,
     "title": "combination sum",
     "language": "py",
@@ -153,6 +162,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/110.balanced-binary-tree.md"
   },
   {
+    "id": 125,
+    "title": "valid palindrome",
+    "language": "py",
+    "solution_path": ".leetcode/125.valid-palindrome.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/125.valid-palindrome.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/125.valid-palindrome.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/125.valid-palindrome.md"
+  },
+  {
     "id": 130,
     "title": "surrounded regions",
     "language": "py",
@@ -232,6 +250,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/167.two-sum-ii-input-array-is-sorted.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/167.two-sum-ii-input-array-is-sorted.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/167.two-sum-ii-input-array-is-sorted.md"
+  },
+  {
+    "id": 199,
+    "title": "binary tree right side view",
+    "language": "py",
+    "solution_path": ".leetcode/199.binary-tree-right-side-view.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/199.binary-tree-right-side-view.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/199.binary-tree-right-side-view.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/199.binary-tree-right-side-view.md"
   },
   {
     "id": 200,
