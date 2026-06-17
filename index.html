@@ -15,6 +15,15 @@
     th, td {border:1px solid #ddd; padding:0.5rem; text-align:left;}
     th {background:#f2f2f2;}
     .loading {text-align:center; margin-top:2rem;}
+    .diff-summary {display:flex; gap:1rem; margin-bottom:1rem; flex-wrap:wrap;}
+    .diff-pill {padding:0.3rem 0.8rem; border-radius:12px; font-size:0.85rem; font-weight:bold; color:#fff;}
+    .diff-pill.easy {background:#27ae60;}
+    .diff-pill.medium {background:#f39c12;}
+    .diff-pill.hard {background:#e74c3c;}
+    .badge {display:inline-block; padding:0.15rem 0.5rem; border-radius:8px; font-size:0.75rem; font-weight:bold; color:#fff;}
+    .badge.easy {background:#27ae60;}
+    .badge.medium {background:#f39c12;}
+    .badge.hard {background:#e74c3c;}
   </style>
 </head>
 <body>
@@ -31,12 +40,14 @@
   <main>
     <section id="problems">
       <h2>Problem List</h2>
+      <div class="diff-summary" id="diff-summary"></div>
       <div class="loading" id="loading">Loading problems...</div>
       <table id="problem-table" style="display:none;">
         <thead>
           <tr>
             <th>#</th>
             <th>Title</th>
+            <th>Difficulty</th>
             <th>Language</th>
             <th>Solution</th>
           </tr>
@@ -66,16 +77,27 @@
       // Store globally for later lookup
       window.problemsData = problems;
       const tbody = document.getElementById('problem-body');
+        const labels = ['easy', 'medium', 'hard'];
+        const counts = [0, 0, 0];
         problems.forEach(p => {
+          const d = p.difficulty !== undefined ? p.difficulty : 0;
+          counts[d] = (counts[d] || 0) + 1;
           const tr = document.createElement('tr');
           tr.innerHTML = `
             <td>${p.id}</td>
             <td>${p.title}</td>
+            <td><span class="badge ${labels[d]}">${labels[d].charAt(0).toUpperCase() + labels[d].slice(1)}</span></td>
             <td>${p.language}</td>
             <td><button onclick="showDetails(${p.id})">View</button></td>
           `;
           tbody.appendChild(tr);
         });
+        // Render summary pills
+        const summaryEl = document.getElementById('diff-summary');
+        const diffNames = ['Easy', 'Medium', 'Hard'];
+        summaryEl.innerHTML = diffNames.map((name, i) =>
+          `<span class="diff-pill ${labels[i]}">${name}: ${counts[i]}</span>`
+        ).join('') + `<span class="diff-pill" style="background:#7f8c8d;">Total: ${problems.length}</span>`;
         document.getElementById('loading').style.display = 'none';
         document.getElementById('problem-table').style.display = 'table';
       } catch (e) {
