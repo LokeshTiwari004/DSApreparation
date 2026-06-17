@@ -99,6 +99,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/55.jump-game.md"
   },
   {
+    "id": 56,
+    "title": "merge intervals",
+    "language": "py",
+    "solution_path": ".leetcode/56.merge-intervals.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/56.merge-intervals.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/56.merge-intervals.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/56.merge-intervals.md"
+  },
+  {
     "id": 77,
     "title": "combinations",
     "language": "py",
@@ -117,6 +126,15 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/78.subsets.md"
   },
   {
+    "id": 79,
+    "title": "word search",
+    "language": "py",
+    "solution_path": ".leetcode/79.word-search.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/79.word-search.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/79.word-search.py",
+    "log_raw_url": null
+  },
+  {
     "id": 88,
     "title": "merge sorted array",
     "language": "py",
@@ -124,6 +142,15 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/88.merge-sorted-array.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/88.merge-sorted-array.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/88.merge-sorted-array.md"
+  },
+  {
+    "id": 98,
+    "title": "validate binary search tree",
+    "language": "py",
+    "solution_path": ".leetcode/98.validate-binary-search-tree.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/98.validate-binary-search-tree.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/98.validate-binary-search-tree.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/98.validate-binary-search-tree.md"
   },
   {
     "id": 100,
