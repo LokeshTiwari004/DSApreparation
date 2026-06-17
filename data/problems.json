@@ -242,21 +242,21 @@
   {
     "id": 142,
     "title": "linked list cycle ii",
-    "language": "py",
-    "difficulty": 1,
-    "solution_path": ".leetcode/142.linked-list-cycle-ii.py",
-    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/142.linked-list-cycle-ii.py",
-    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/142.linked-list-cycle-ii.py",
-    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/142.linked-list-cycle-ii.md"
-  },
-  {
-    "id": 142,
-    "title": "linked list cycle ii",
     "language": "cpp",
     "difficulty": 1,
     "solution_path": ".leetcode/142.linked-list-cycle-ii.cpp",
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/142.linked-list-cycle-ii.cpp",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/142.linked-list-cycle-ii.cpp",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/142.linked-list-cycle-ii.md"
+  },
+  {
+    "id": 142,
+    "title": "linked list cycle ii",
+    "language": "py",
+    "difficulty": 1,
+    "solution_path": ".leetcode/142.linked-list-cycle-ii.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/142.linked-list-cycle-ii.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/142.linked-list-cycle-ii.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/142.linked-list-cycle-ii.md"
   },
   {
