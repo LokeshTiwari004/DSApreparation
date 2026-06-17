@@ -17,3 +17,11 @@
 - [x] #125 Valid Palindrome — Two Pointers (Easy)
 - [x] #199 Binary Tree Right Side View — Tree BFS/DFS (Medium)
 - [x] #36 Valid Sudoku — Hashing / Matrix (Medium)
+
+# Phase 3 – Mixed Set 1
+
+- [x] #98 Validate Binary Search Tree — Trees (Medium)
+- [x] #56 Merge Intervals — Intervals / Sorting (Medium)
+- [ ] #79 Word Search — Graph DFS + Backtracking (Medium)
+- [ ] #209 Minimum Size Subarray Sum — Sliding Window (Medium)
+- [ ] #2 Add Two Numbers — Linked List (Medium)

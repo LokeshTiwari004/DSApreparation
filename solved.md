@@ -59,6 +59,8 @@
 - [x] #125 Valid Palindrome — Two Pointers (Easy)
 - [x] #199 Binary Tree Right Side View — Tree BFS (Medium)
 - [x] #36 Valid Sudoku — Hashing (Medium)
+- [x] #98 Validate Binary Search Tree — BST Range (Medium)
+- [x] #56 Merge Intervals — Intervals (Medium)
 
 ## Unsolved (to revisit)
 
