@@ -64,4 +64,6 @@
 
 ## Unsolved (to revisit)
 
+- [ ] #79 Word Search — DFS + Backtracking (Medium) (re-attempt)
+
 
