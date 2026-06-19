@@ -24,4 +24,4 @@
 - [x] #56 Merge Intervals — Intervals / Sorting (Medium)
 - [x] #79 Word Search — Graph DFS + Backtracking (Medium)
 - [ ] #209 Minimum Size Subarray Sum — Sliding Window (Medium)
-- [ ] #2 Add Two Numbers — Linked List (Medium)
+- [x] #2 Add Two Numbers — Linked List (Medium)

@@ -61,6 +61,7 @@
 - [x] #36 Valid Sudoku — Hashing (Medium)
 - [x] #98 Validate Binary Search Tree — BST Range (Medium)
 - [x] #56 Merge Intervals — Intervals (Medium)
+- [x] #2 Add Two Numbers — Linked List (Medium)
 
 ## Unsolved (to revisit)
 
