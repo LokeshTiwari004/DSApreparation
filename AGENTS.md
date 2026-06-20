@@ -79,3 +79,74 @@ Each entry is a row in the main table:
 ## Roadmap Reference
 - Active roadmap: `~/dsa/ROADMAP.md`
 - Current phase tracked in `~/dsa/log.md`
+
+## Hard Problems Track (3 Problems)
+- Maintain a rotating set of **3 Hard problems** in `TODO.md` under a dedicated section
+- Format: `- [ ] #ID Problem Name — Pattern (Hard)`
+- When all 3 are solved, auto-refresh with 3 new Hard problems
+- When user asks to refresh, replace **only the completed ones** (keep unsolved)
+- Source from unsolved Hards in `completed.txt` + curated Hard list (Blind 75 Hard, NeetCode Hard)
+- Prioritize patterns user is weak in (from log.md critique history)
+
+## Pattern Tracks (3 Problems Per Pattern)
+- Maintain **multiple active pattern tracks** (3 problems each) in `TODO.md`
+- Format: `- [ ] #ID Problem Name — Pattern (Difficulty)`
+- Each pattern gets its own section: `## Pattern Track: <Pattern Name> (3)`
+- When all 3 in a track solved, auto-refresh that track with 3 new problems of same pattern
+- When user asks to refresh a track, replace **only completed ones**
+- Pattern selection priority:
+  1. Patterns with most `(hint)` / `(re-attempt)` / `Unsolved` in log.md (weaknesses)
+  2. High-yield patterns not yet covered: Sliding Window, Binary Search on Answer, Graph, DP, Two Pointers, Backtracking, Monotonic Stack, Heap, Trie
+  3. Patterns user explicitly requests
+
+## Weakness Injection
+- From log.md critiques, extract recurring issues:
+  - Wrong pattern labels
+  - Complexity errors
+  - Non-canonical implementations
+  - Edge case misses
+  - Language inconsistencies (C/C++ vs Python)
+- Inject 1 weakness-targeted problem into each pattern track (re-attempt or variant)
+- Inject 1 weakness-targeted problem into Hard track when refreshing
+- Mixed set has no restrictions — can include problems from pattern tracks or not
+
+## TODO.md Structure (Updated)
+```
+# Problem Queue
+
+## Hard Track (3)
+- [ ] #ID Problem — Pattern (Hard)
+- [ ] #ID Problem — Pattern (Hard)
+- [ ] #ID Problem — Pattern (Hard)
+
+## Pattern Track: <Current Pattern> (3)
+- [ ] #ID Problem — Pattern (Difficulty)
+- [ ] #ID Problem — Pattern (Difficulty)
+- [ ] #ID Problem — Pattern (Difficulty)
+
+## Pattern Track: <Another Pattern> (3)
+- [ ] #ID Problem — Pattern (Difficulty)
+- [ ] #ID Problem — Pattern (Difficulty)
+- [ ] #ID Problem — Pattern (Difficulty)
+
+## Mixed Set (Optional)
+- [ ] #ID Problem — Pattern (Difficulty)
+...
+```
+
+## Mock Assessments (On-Demand)
+- Generated when user asks: "give me a mock assessment"
+- **No restrictions** — can use ANY problem: TODO items, completed items, unsolved, re-attempts, **or entirely new problems not seen before**
+- 3 problems, mixed patterns, ~90 min target
+- Self-timed by user
+- Not tracked in TODO.md persistence — generated fresh each request
+- Logged in log.md with Phase = "Mock Assessment #N"
+
+## Workflow Improvements (Agent Self-Correction)
+- **Auto-detect phase transitions** — when log.md shows 3+ mock assessments done, suggest next phase
+- **Pattern mastery threshold** — if user solves 5+ problems of a pattern with 0 hints and clean critiques, mark pattern "mastered" and deprioritize
+- **Streak tracking** — add `streak` column to log.md (consecutive days with ≥1 solve)
+- **Time-to-solve tracking** — log actual minutes spent (not just session time) to identify speed plateaus
+- **Canonical solution library** — maintain `~/dsa/canonical/<pattern>.py` with clean reference implementations; update when user's solution improves on it
+- **Pre-session brief** — at start of session, show: today's TODO, pattern focus, weak areas from recent critiques
+- **Post-session summary** — at end, show: solved count, patterns touched, time spent, next recommended focus

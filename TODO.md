@@ -1,27 +1,28 @@
 # Problem Queue
 
-- [x] #78 Subsets — Backtracking (Medium)
-- [x] #46 Permutations — Backtracking (Medium)
-- [x] #39 Combination Sum — Backtracking (Medium)
-- [x] #77 Combinations — Backtracking (Medium)
-- [x] #22 Generate Parentheses — Backtracking (Medium)
+## Hard Track (3)
+- [ ] #4 Median of Two Sorted Arrays — Binary Search (Hard)
+- [ ] #10 Regular Expression Matching — DP (Hard)
+- [ ] #23 Merge k Sorted Lists — Heap / Divide & Conquer (Hard)
 
-# Phase 3 – Week 8: Mock Assessment #1 (90 min)
+## Pattern Track: Sliding Window (3)
+- [ ] #76 Minimum Window Substring — Sliding Window (Hard)
+- [ ] #904 Fruit Into Baskets — Sliding Window (Medium)
+- [ ] #239 Sliding Window Maximum — Monotonic Deque (Hard)
 
-- [x] #102 Binary Tree Level Order Traversal — Trees BFS (Medium)
-- [x] #167 Two Sum II — Two Pointers (Medium)
-- [x] #55 Jump Game — Greedy (Medium)
+## Pattern Track: Binary Search on Answer (3)
+- [ ] #875 Koko Eating Bananas — Binary Search on Answer (Medium) (re-attempt)
+- [ ] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
+- [ ] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
 
-# Phase 3 – Week 8: Mock Assessment #2 (90 min)
+## Pattern Track: Graph (3)
+- [ ] #207 Course Schedule — Topological Sort (Medium) (hint)
+- [ ] #210 Course Schedule II — Topological Sort (Medium)
+- [ ] #332 Reconstruct Itinerary — Graph DFS/Eulerian (Hard)
 
-- [x] #125 Valid Palindrome — Two Pointers (Easy)
-- [x] #199 Binary Tree Right Side View — Tree BFS/DFS (Medium)
-- [x] #36 Valid Sudoku — Hashing / Matrix (Medium)
-
-# Phase 3 – Mixed Set 1
-
-- [x] #98 Validate Binary Search Tree — Trees (Medium)
-- [x] #56 Merge Intervals — Intervals / Sorting (Medium)
-- [x] #79 Word Search — Graph DFS + Backtracking (Medium)
-- [ ] #209 Minimum Size Subarray Sum — Sliding Window (Medium)
-- [x] #2 Add Two Numbers — Linked List (Medium)
+## Mixed Set (Optional)
+- [ ] #11 Container With Most Water — Two Pointers (Medium) (re-attempt)
+- [ ] #15 3Sum — Two Pointers (Medium) (re-attempt)
+- [ ] #167 Two Sum II — Two Pointers (Medium) (re-attempt)
+- [ ] #680 Valid Palindrome II — Two Pointers (Easy)
+- [ ] #633 Sum of Square Numbers — Two Pointers (Medium)
