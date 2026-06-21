@@ -63,6 +63,7 @@
 - [x] #56 Merge Intervals — Intervals (Medium)
 - [x] #2 Add Two Numbers — Linked List (Medium)
 - [x] #209 Minimum Size Subarray Sum — Sliding Window (Medium)
+- [x] #680 Valid Palindrome II — Two Pointers (Easy)
 
 ## Unsolved (to revisit)
 

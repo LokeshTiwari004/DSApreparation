@@ -24,5 +24,5 @@
 - [ ] #11 Container With Most Water — Two Pointers (Medium) (re-attempt)
 - [ ] #15 3Sum — Two Pointers (Medium) (re-attempt)
 - [ ] #167 Two Sum II — Two Pointers (Medium) (re-attempt)
-- [ ] #680 Valid Palindrome II — Two Pointers (Easy)
+- [x] #680 Valid Palindrome II — Two Pointers (Easy)
 - [ ] #633 Sum of Square Numbers — Two Pointers (Medium)
