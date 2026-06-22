@@ -7,7 +7,7 @@
 
 ## Pattern Track: Sliding Window (3)
 - [ ] #76 Minimum Window Substring — Sliding Window (Hard)
-- [ ] #904 Fruit Into Baskets — Sliding Window (Medium)
+- [x] #904 Fruit Into Baskets — Sliding Window (Medium)
 - [ ] #239 Sliding Window Maximum — Monotonic Deque (Hard)
 
 ## Pattern Track: Binary Search on Answer (3)
@@ -25,4 +25,4 @@
 - [ ] #15 3Sum — Two Pointers (Medium) (re-attempt)
 - [ ] #167 Two Sum II — Two Pointers (Medium) (re-attempt)
 - [x] #680 Valid Palindrome II — Two Pointers (Easy)
-- [ ] #633 Sum of Square Numbers — Two Pointers (Medium)
+- [x] #633 Sum of Square Numbers — Two Pointers (Medium)
