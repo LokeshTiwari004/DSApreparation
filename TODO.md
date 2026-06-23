@@ -17,7 +17,7 @@
 
 ## Pattern Track: Graph (3)
 - [ ] #207 Course Schedule — Topological Sort (Medium) (hint)
-- [ ] #210 Course Schedule II — Topological Sort (Medium)
+- [x] #210 Course Schedule II — Topological Sort (Medium)
 - [ ] #332 Reconstruct Itinerary — Graph DFS/Eulerian (Hard)
 
 ## Mixed Set (Optional)

@@ -66,6 +66,7 @@
 - [x] #680 Valid Palindrome II — Two Pointers (Easy)
 - [x] #633 Sum of Square Numbers — Two Pointers (Medium)
 - [x] #904 Fruit Into Baskets — Sliding Window (Medium)
+- [x] #210 Course Schedule II — Topological Sort (Medium)
 
 ## Unsolved (to revisit)
 
