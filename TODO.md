@@ -12,7 +12,7 @@
 
 ## Pattern Track: Binary Search on Answer (3)
 - [ ] #875 Koko Eating Bananas — Binary Search on Answer (Medium) (re-attempt)
-- [ ] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
+- [x] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
 - [ ] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
 
 ## Pattern Track: Graph (3)

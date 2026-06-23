@@ -67,6 +67,7 @@
 - [x] #633 Sum of Square Numbers — Two Pointers (Medium)
 - [x] #904 Fruit Into Baskets — Sliding Window (Medium)
 - [x] #210 Course Schedule II — Topological Sort (Medium)
+- [x] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
 
 ## Unsolved (to revisit)
 
