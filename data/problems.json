@@ -380,6 +380,16 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/209.minimum-size-subarray-sum.md"
   },
   {
+    "id": 210,
+    "title": "course schedule ii",
+    "language": "py",
+    "difficulty": 0,
+    "solution_path": ".leetcode/210.course-schedule-ii.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/210.course-schedule-ii.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/210.course-schedule-ii.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/210.course-schedule-ii.md"
+  },
+  {
     "id": 226,
     "title": "invert binary tree",
     "language": "py",
@@ -538,6 +548,16 @@
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/994.rotting-oranges.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/994.rotting-oranges.py",
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/994.rotting-oranges.md"
+  },
+  {
+    "id": 1011,
+    "title": "capacity to ship packages within d days",
+    "language": "py",
+    "difficulty": 0,
+    "solution_path": ".leetcode/1011.capacity-to-ship-packages-within-d-days.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/1011.capacity-to-ship-packages-within-d-days.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/1011.capacity-to-ship-packages-within-d-days.py",
+    "log_raw_url": null
   },
   {
     "id": 1421,
