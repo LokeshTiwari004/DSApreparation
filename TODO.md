@@ -1,9 +1,9 @@
 # Problem Queue
 
 ## Hard Track (3)
-- [ ] #4 Median of Two Sorted Arrays — Binary Search (Hard)
-- [ ] #10 Regular Expression Matching — DP (Hard)
-- [ ] #23 Merge k Sorted Lists — Heap / Divide & Conquer (Hard)
+- [x] #124 Binary Tree Maximum Path Sum — Trees / DFS (Hard)
+- [ ] #42 Trapping Rain Water — Two Pointers / Monotonic Stack (Hard)
+- [ ] #295 Find Median from Data Stream — Two Heaps (Hard)
 
 ## Pattern Track: Sliding Window (3)
 - [ ] #76 Minimum Window Substring — Sliding Window (Hard)
