@@ -110,6 +110,16 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/39.combination-sum.md"
   },
   {
+    "id": 42,
+    "title": "trapping rain water",
+    "language": "py",
+    "difficulty": 0,
+    "solution_path": ".leetcode/42.trapping-rain-water.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/42.trapping-rain-water.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/42.trapping-rain-water.py",
+    "log_raw_url": null
+  },
+  {
     "id": 46,
     "title": "permutations",
     "language": "py",
@@ -430,6 +440,16 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/235.lowest-common-ancestor-of-a-binary-search-tree.md"
   },
   {
+    "id": 295,
+    "title": "find median from data stream",
+    "language": "py",
+    "difficulty": 0,
+    "solution_path": ".leetcode/295.find-median-from-data-stream.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/295.find-median-from-data-stream.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/295.find-median-from-data-stream.py",
+    "log_raw_url": null
+  },
+  {
     "id": 332,
     "title": "reconstruct itinerary",
     "language": "py",
@@ -447,7 +467,7 @@
     "solution_path": ".leetcode/410.split-array-largest-sum.py",
     "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/410.split-array-largest-sum.py",
     "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/410.split-array-largest-sum.py",
-    "log_raw_url": null
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/410.split-array-largest-sum.md"
   },
   {
     "id": 424,
