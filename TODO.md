@@ -13,7 +13,7 @@
 ## Pattern Track: Binary Search on Answer (3)
 - [ ] #875 Koko Eating Bananas — Binary Search on Answer (Medium) (re-attempt)
 - [x] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
-- [ ] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
+- [x] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
 
 ## Pattern Track: Graph (3)
 - [ ] #207 Course Schedule — Topological Sort (Medium) (hint)

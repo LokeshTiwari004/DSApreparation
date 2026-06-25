@@ -69,6 +69,7 @@
 - [x] #210 Course Schedule II — Topological Sort (Medium)
 - [x] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
 - [x] #124 Binary Tree Maximum Path Sum — Trees / DFS (Hard)
+- [x] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
 
 ## Unsolved (to revisit)
 
