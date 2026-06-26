@@ -2,7 +2,7 @@
 
 ## Hard Track (3)
 - [x] #124 Binary Tree Maximum Path Sum — Trees / DFS (Hard)
-- [ ] #42 Trapping Rain Water — Two Pointers / Monotonic Stack (Hard)
+- [x] #42 Trapping Rain Water — Two Pointers / Monotonic Stack (Hard)
 - [ ] #295 Find Median from Data Stream — Two Heaps (Hard)
 
 ## Pattern Track: Sliding Window (3)

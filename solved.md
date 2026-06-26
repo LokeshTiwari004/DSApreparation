@@ -70,6 +70,7 @@
 - [x] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
 - [x] #124 Binary Tree Maximum Path Sum — Trees / DFS (Hard)
 - [x] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
+- [x] #42 Trapping Rain Water — Prefix/Suffix Max (Hard)
 
 ## Unsolved (to revisit)
 
