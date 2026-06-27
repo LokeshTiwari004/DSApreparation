@@ -1,9 +1,9 @@
 # Problem Queue
 
 ## Hard Track (3)
-- [x] #124 Binary Tree Maximum Path Sum — Trees / DFS (Hard)
-- [x] #42 Trapping Rain Water — Two Pointers / Monotonic Stack (Hard)
-- [ ] #295 Find Median from Data Stream — Two Heaps (Hard)
+- [ ] #84 Largest Rectangle in Histogram — Monotonic Stack (Hard)
+- [ ] #72 Edit Distance — DP (Hard)
+- [ ] #297 Serialize and Deserialize Binary Tree — Trees / BFS (Hard)
 
 ## Pattern Track: Sliding Window (3)
 - [ ] #76 Minimum Window Substring — Sliding Window (Hard)
