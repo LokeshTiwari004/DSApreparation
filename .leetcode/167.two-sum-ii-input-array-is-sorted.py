@@ -10,13 +10,13 @@
 # o(n) time and O(1) space
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        lo, hi = 0, len(numbers) - 1
-        while lo < hi:
-            if numbers[lo] + numbers[hi] > target:
-                hi -= 1
-            elif numbers[lo] + numbers[hi] < target:
-                lo += 1
+        pt1, pt2 = 0, len(numbers)-1
+        while pt1 < pt2:
+            current = numbers[pt1] + numbers[pt2]
+            if current == target:
+                return [pt1+1, pt2+1]
+            elif current > target:
+                pt2 -= 1
             else:
-                return [lo+1, hi+1]
-
+                pt1 += 1
 # @lc code=end

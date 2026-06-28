@@ -32,7 +32,7 @@
 - [x] #150 Evaluate Reverse Polish Notation — Stack (Medium)
 - [x] #153 Find Minimum in Rotated Sorted Array — Binary Search on condition (Medium)
 - [x] #155 Min Stack — Stack design (Medium)
-- [x] #167 Two Sum II — Two Pointers (Medium)
+- [x] #167 Two Sum II — Two Pointers (Medium) (re-attempt)
 - [x] #200 Number of Islands — Graph DFS (Medium)
 - [x] #206 Reverse Linked List — Linked List (Easy)
 - [x] #207 Course Schedule — Topological Sort (Medium) (hint)
