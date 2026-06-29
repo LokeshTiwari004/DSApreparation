@@ -1,7 +1,7 @@
 # Problem Queue
 
 ## Hard Track (3)
-- [ ] #84 Largest Rectangle in Histogram — Monotonic Stack (Hard)
+- [x] #84 Largest Rectangle in Histogram — Monotonic Stack (Hard)
 - [ ] #72 Edit Distance — DP (Hard)
 - [ ] #297 Serialize and Deserialize Binary Tree — Trees / BFS (Hard)
 

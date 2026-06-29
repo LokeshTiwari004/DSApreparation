@@ -72,6 +72,7 @@
 - [x] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
 - [x] #42 Trapping Rain Water — Prefix/Suffix Max (Hard)
 - [x] #295 Find Median from Data Stream — Two Heaps (Hard)
+- [x] #84 Largest Rectangle in Histogram — Monotonic Stack (Hard)
 
 ## Unsolved (to revisit)
 
