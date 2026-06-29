@@ -180,6 +180,16 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/79.word-search.md"
   },
   {
+    "id": 84,
+    "title": "largest rectangle in histogram",
+    "language": "py",
+    "difficulty": 0,
+    "solution_path": ".leetcode/84.largest-rectangle-in-histogram.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/84.largest-rectangle-in-histogram.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/84.largest-rectangle-in-histogram.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/84.largest-rectangle-in-histogram.md"
+  },
+  {
     "id": 88,
     "title": "merge sorted array",
     "language": "py",
