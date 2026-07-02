@@ -7,41 +7,26 @@
 # @lc code=start
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
-        lookup = dict()
-        for idx, num in enumerate(nums):
-            if num in lookup:
-                lookup[num].add(idx)
-            else:
-                lookup[num] = {idx}
-        
+        nums.sort()
         n = len(nums)
-        answer = set()
-        if len(lookup.get(0, [])) > 2:
-            answer.add((0, 0, 0))
-
-        for i in range(n):
-            a = nums[i]
-            for j in range(i+1, n):
-                b = nums[j]
-                complement = -a-b
-                complement_ids = lookup.get(complement, None)
-                if not complement_ids or i in complement_ids or j in complement_ids:
-                    continue
+        hashset = set(nums)
+        res = []
+        for idx, num in enumerate(nums):
+            if n-idx-1 and  num == nums[idx + 1]:
+                continue
+            if num:
+                if idx and nums[idx-1] == num and -2 * num in hashset:
+                    res.append([num, num, -2*num])
                 
-                if a >= b:
-                    if b >= complement:
-                        triplet = (a, b, complement)
-                    elif complement >= a:
-                        triplet = (complement, a, b)
-                    else:
-                        triplet = (a, complement, b)
-                else:
-                    if a >= complement:
-                        triplet = (b, a, complement)
-                    elif complement >=b:
-                        triplet = (complement, b, a)
-                    else:
-                        triplet = (b, complement, a)
-                answer.add(triplet)
-        return [list(item) for item in answer]
+                for pt2 in range(idx+1, n):
+                    if n-pt2-1 and nums[pt2] == nums[pt2+1]:
+                        continue
+                    num2 = nums[pt2]
+                    num3 = -num-num2
+                    if num3 > num2 and num3 in hashset:
+                        res.append([num, num2, num3])
+
+            elif num == 0 and idx>1 and nums[idx-2] == 0:
+                res.append([0, 0, 0])
+        return res
 # @lc code=end

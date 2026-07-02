@@ -5,7 +5,7 @@
 - [x] #1 Two Sum — HashMap (Easy)
 - [x] #3 Longest Substring Without Repeating Characters — Sliding Window (Medium)
 - [x] #11 Container With Most Water — Two Pointers (Medium) (re-attempt)
-- [x] #15 3Sum — Two Pointers (Medium)
+- [x] #15 3Sum — Two Pointers (Medium) (re-attempt)
 - [x] #19 Remove Nth Node From End of List — Two Pointers (Medium)
 - [x] #20 Valid Parentheses — Stack (Easy)
 - [x] #22 Generate Parentheses — Backtracking (Medium)
