@@ -73,6 +73,7 @@
 - [x] #42 Trapping Rain Water — Prefix/Suffix Max (Hard)
 - [x] #295 Find Median from Data Stream — Two Heaps (Hard)
 - [x] #84 Largest Rectangle in Histogram — Monotonic Stack (Hard)
+- [x] #94 Binary Tree Inorder Traversal — Trees (Easy)
 
 ## Unsolved (to revisit)
 

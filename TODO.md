@@ -25,4 +25,4 @@
 - [ ] #206 Reverse Linked List — Linked List (Easy) (re-attempt)
 - [ ] #15 3Sum — Two Pointers (Medium) (re-attempt, canonical)
 - [ ] #48 Rotate Image — Matrix (Medium)
-- [ ] #94 Binary Tree Inorder Traversal — Trees (Easy)
+- [x] #94 Binary Tree Inorder Traversal — Trees (Easy)
