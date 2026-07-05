@@ -160,6 +160,16 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/56.merge-intervals.md"
   },
   {
+    "id": 70,
+    "title": "climbing stairs",
+    "language": "py",
+    "difficulty": 0,
+    "solution_path": ".leetcode/70.climbing-stairs.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/70.climbing-stairs.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/70.climbing-stairs.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/70.climbing-stairs.md"
+  },
+  {
     "id": 77,
     "title": "combinations",
     "language": "py",
