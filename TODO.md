@@ -21,7 +21,7 @@
 - [ ] #332 Reconstruct Itinerary — Graph DFS/Eulerian (Hard)
 
 ## Mixed Set (Diverse)
-- [ ] #70 Climbing Stairs — DP (Easy)
+- [x] #70 Climbing Stairs — DP (Easy)
 - [ ] #206 Reverse Linked List — Linked List (Easy) (re-attempt)
 - [ ] #15 3Sum — Two Pointers (Medium) (re-attempt, canonical)
 - [ ] #48 Rotate Image — Matrix (Medium)
