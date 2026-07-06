@@ -34,7 +34,7 @@
 - [x] #155 Min Stack — Stack design (Medium)
 - [x] #167 Two Sum II — Two Pointers (Medium) (re-attempt)
 - [x] #200 Number of Islands — Graph DFS (Medium)
-- [x] #206 Reverse Linked List — Linked List (Easy)
+- [x] #206 Reverse Linked List — Linked List (Easy) (re-attempt)
 - [x] #207 Course Schedule — Topological Sort (Medium) (hint)
 - [x] #217 Contains Duplicate — HashSet (Easy)
 - [x] #226 Invert Binary Tree — Trees (Easy)

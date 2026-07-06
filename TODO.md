@@ -22,7 +22,7 @@
 
 ## Mixed Set (Diverse)
 - [x] #70 Climbing Stairs — DP (Easy)
-- [ ] #206 Reverse Linked List — Linked List (Easy) (re-attempt)
+- [x] #206 Reverse Linked List — Linked List (Easy) (re-attempt)
 - [ ] #15 3Sum — Two Pointers (Medium) (re-attempt, canonical)
 - [ ] #48 Rotate Image — Matrix (Medium)
 - [x] #94 Binary Tree Inorder Traversal — Trees (Easy)
