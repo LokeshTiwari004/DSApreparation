@@ -2,7 +2,7 @@
 
 ## Hard Track (3)
 - [x] #84 Largest Rectangle in Histogram — Monotonic Stack (Hard)
-- [ ] #72 Edit Distance — DP (Hard)
+- [x] #72 Edit Distance — DP (Hard)
 - [ ] #297 Serialize and Deserialize Binary Tree — Trees / BFS (Hard)
 
 ## Pattern Track: Sliding Window (3)

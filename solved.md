@@ -75,6 +75,7 @@
 - [x] #84 Largest Rectangle in Histogram — Monotonic Stack (Hard)
 - [x] #94 Binary Tree Inorder Traversal — Trees (Easy)
 - [x] #70 Climbing Stairs — DP (Easy)
+- [x] #72 Edit Distance — DP (Hard)
 
 ## Unsolved (to revisit)
 
