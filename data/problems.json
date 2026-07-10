@@ -490,6 +490,16 @@
     "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/235.lowest-common-ancestor-of-a-binary-search-tree.md"
   },
   {
+    "id": 239,
+    "title": "sliding window maximum",
+    "language": "py",
+    "difficulty": 0,
+    "solution_path": ".leetcode/239.sliding-window-maximum.py",
+    "solution_url": "https://github.com/LokeshTiwari004/DSApreparation/blob/main/.leetcode/239.sliding-window-maximum.py",
+    "solution_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/.leetcode/239.sliding-window-maximum.py",
+    "log_raw_url": "https://raw.githubusercontent.com/LokeshTiwari004/DSApreparation/main/logs/239.sliding-window-maximum.md"
+  },
+  {
     "id": 295,
     "title": "find median from data stream",
     "language": "py",
