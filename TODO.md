@@ -8,17 +8,22 @@
 ## Pattern Track: Sliding Window (3)
 - [ ] #76 Minimum Window Substring — Sliding Window (Hard)
 - [x] #904 Fruit Into Baskets — Sliding Window (Medium)
-- [ ] #239 Sliding Window Maximum — Monotonic Deque (Hard)
+- [x] #239 Sliding Window Maximum — Monotonic Deque (Hard)
 
 ## Pattern Track: Binary Search on Answer (3)
-- [ ] #875 Koko Eating Bananas — Binary Search on Answer (Medium) (re-attempt)
-- [x] #1011 Capacity To Ship Packages Within D Days — Binary Search on Answer (Medium)
-- [x] #410 Split Array Largest Sum — Binary Search on Answer (Hard)
+- [ ] #1482 Minimum Number of Days to Make m Bouquets — BS on Answer (Medium)
+- [ ] #1283 Find the Smallest Divisor Given a Threshold — BS on Answer (Medium)
+- [ ] #1231 Divide Chocolate — BS on Answer (Hard)
 
 ## Pattern Track: Graph (3)
 - [ ] #207 Course Schedule — Topological Sort (Medium) (hint)
 - [x] #210 Course Schedule II — Topological Sort (Medium)
 - [ ] #332 Reconstruct Itinerary — Graph DFS/Eulerian (Hard)
+
+## Pattern Track: DP (3)
+- [ ] #746 Min Cost Climbing Stairs — DP (Easy)
+- [ ] #198 House Robber — DP (Medium)
+- [ ] #300 Longest Increasing Subsequence — DP (Medium)
 
 ## Mixed Set (Diverse)
 - [x] #70 Climbing Stairs — DP (Easy)

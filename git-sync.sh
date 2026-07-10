@@ -2,6 +2,8 @@
 set -euo pipefail
 
 git add .
-git commit -m "$(date)"
+msg="$(date)"
+[ -n "${1:-}" ] && msg="$msg: $1"
+git commit -m "$msg"
 git pull --rebase
 git push

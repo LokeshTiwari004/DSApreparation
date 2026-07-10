@@ -14,16 +14,15 @@ class Solution:
     O(1) space
     """
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
-        lo , hi = 1, max(piles)
+        lo, hi = 1, max(piles)
         while lo < hi:
-            mid = (hi+lo) // 2
-            time = 0
-            for pile in piles:
-                time += (pile + mid -1) // mid
-            
-            if time > h:
+            mid = (lo + hi) // 2
+            hrs = 0
+            for p in piles:
+                hrs += (p+mid-1) // mid
+            if hrs > h:
                 lo = mid + 1
             else:
                 hi = mid
-        return (lo+hi) // 2
+        return hi
 # @lc code=end

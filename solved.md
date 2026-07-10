@@ -76,6 +76,7 @@
 - [x] #94 Binary Tree Inorder Traversal — Trees (Easy)
 - [x] #70 Climbing Stairs — DP (Easy)
 - [x] #72 Edit Distance — DP (Hard)
+- [x] #239 Sliding Window Maximum — Monotonic Deque (Hard)
 
 ## Unsolved (to revisit)
 
